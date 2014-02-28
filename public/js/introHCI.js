@@ -10,4 +10,11 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// your code here
+
+
 }
+
+
+var likebutton = document.getElementById('likeb');
+
+likebutton.onClick(ga("send", "event", "like", "click"););
